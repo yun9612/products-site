@@ -10,9 +10,8 @@ li {
 }
 .prod-list {
   display: flex;
-  gap: 10px;
-  margin: 20px;
   overflow: hidden;
+  justify-content: space-between;
 }
 .prod-list img {
   display: block;
@@ -39,4 +38,16 @@ li {
 .prod-list li:hover .caption {
   opacity: 1;
   transform: translateY(-200px);
+}
+fieldset {
+  width: 1000px;
+  margin: 100px auto;
+  border: 1px solid #333;
+  padding: 20px;
+}
+legend {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px;
 }
